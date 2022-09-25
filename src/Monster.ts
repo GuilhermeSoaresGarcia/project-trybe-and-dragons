@@ -32,8 +32,3 @@ export default class Monster implements SimpleFighter {
     enemy.receiveDamage(this.strength);
   }
 }
-
-const monster1 = new Monster();
-
-console.log(monster1);
-console.log(monster1.receiveDamage(610));
