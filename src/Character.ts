@@ -79,16 +79,15 @@ export default class Character implements SimpleFighter {
     const damage = attackPoints - this._defense;
     if (damage > 0) {
       this._lifePoints -= damage;
-      if (this._lifePoints < 1) {
-        this._lifePoints = -1;
-      }
-      return this._lifePoints;
+    }
+    if (this._lifePoints < 1) {
+      this._lifePoints = -1;
     }
     return this._lifePoints;
   }
 
   public special(enemy: SimpleFighter): void {
     const special = this._strength + getRandomInt(10, 20);
-    enemy.receiveDamage(special);    
+    enemy.receiveDamage(special);
   }
 }

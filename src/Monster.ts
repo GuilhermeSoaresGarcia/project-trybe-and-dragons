@@ -19,11 +19,10 @@ export default class Monster implements SimpleFighter {
 
   receiveDamage(attackPoints: number): number {
     if (attackPoints > 0) {
-      let remainingHP = this._lifePoints - attackPoints;
-      if (remainingHP < 1) {
-        remainingHP = -1;
-      }
-      return remainingHP;
+      this._lifePoints -= attackPoints;
+    }
+    if (this._lifePoints < 1) {
+      this._lifePoints = -1;
     }
     return this._lifePoints;
   }
