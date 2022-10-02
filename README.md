@@ -1,16 +1,28 @@
-# 🚧 README em construção 🚧
+# Trybe And Dragons Project
 
-<!-- Olá, Tryber!
+# Contexto
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+Este projeto propunha a criação de uma abstração similar a um jogo de RPG (role playing game) em que deveriam ser criados personagens e monstros, com raças e arquétipos específicos, utilizando POO com TypeScript para isso. Deveriam ser implementados métodos com as lógicas de batalhas com outros jogadores (PVP) ou contra monstros (PVE), bem como a possibilidade de utilização de golpes especiais, sistema de level up, etc.
 
-É essencial que você preencha esse documento por conta própria, ok?
+> Utilização do paradigma de programação orientada a objetos (POO) com o uso do TypeScript;
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+> Compreensão dos conceitos de herança, abstração, encapsulamento e polimorfismo em POO;
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+> Utilização de compositions e interfaces;
 
--->
+> Fixar os princípios da arquitetura SOLID;
+ 
+
+## Tecnologias usadas
+
+> Desenvolvido usando: TypeScript.
+
+## Instalando dependências
+```
+npm install
+```
+
+## Executando aplicação
+```
+npm start
+```
